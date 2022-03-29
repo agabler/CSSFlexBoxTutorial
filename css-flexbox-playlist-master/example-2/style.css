@@ -9,7 +9,7 @@ body{
 
 .wrapper{
   width: 100%;
-  max-width: 960px;
+  max-width: 768px;
   margin: 0 auto;
 }
 
@@ -17,11 +17,12 @@ body{
 
 nav{
   background: #333;
+  
 }
 
 nav ul{
   list-style-type: none;
-  padding: 0;
+  padding: 15px;
 }
 
 nav a{
@@ -38,32 +39,33 @@ nav a:hover{
 
 /* social menu base styles */
 
-a .tw{
+a.tw{
   background: url(img/tw.png) no-repeat center;
-  background-size: 80%;
+  background-size: 40%;
 
 
 }
 
-a .fb{
+a.fb{
   background: url(img/fb.png) no-repeat center;
-  background-size: 80%;
+  background-size: 40%;
 
 }
 
 .social a{
-  text-ident: -10000px;
+  text-indent: -10000px;
 
 }
 
 .social{
     max-width: 80px;
     margin: 0 auto;
+  
 }
 
 /* flex styles */
 
-nav ul .social{
+nav ul.social{
     display: flex;
     flex: 1 1 0;
 }
@@ -75,6 +77,7 @@ nav ul .social li{
 
 @media screen and (min-width: 768px){
 
+  
 nav ul{
   display: flex;
   
@@ -90,11 +93,7 @@ nav{
 
 }
 
-.social{
-    margin: 0;
 
-
-}
     
 } /* end media 768 */
 
